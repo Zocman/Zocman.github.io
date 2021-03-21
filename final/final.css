@@ -1,20 +1,88 @@
-/*BEGIN PS4 White Controller Styling*/
-.controller.ds4.white {
-    background-image: url(White_Skin.png);
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(White_Skin.png);
+    height: 700px;
+    width: 1200px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
 
 
-
-.ds4.white .button {
-    background-image: url(FaceButtons.png);
+.ds4 .abxy {
+    position: absolute;
+    width: 170px;
+    height: 171px;
+    top: 200px;
+    left: 762px;
 }
 
-.ds4.white .stick {
-    background-image: url(Sticks.png);
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(FaceButtons.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.ds4 .a {
+    background-position: 0 0;
+    bottom: 0px;
+    left: 58px;
+}
+
+.ds4 .b {
+    background-position: -57px 0;
+    top: 57px;
+    right: -3px;
+}
+
+.ds4 .x {
+    background-position: -113px 0;
+    top: 57px;
+}
+
+.ds4 .y {
+    background-position: 55px 0;
+    left: 58px;
+    bottom: 119px;
+}
+
+.ds4 .sticks {
+    position: absolute;
+    width: 364px;
+    height: 105px;
+    top: 348px;
+    left: 422px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(Sticks.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds4 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
 }
 
 
-/*END PS4 White Controller Styling*/
-
-
-
+/*END PS4 Controller Styling*/
