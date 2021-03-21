@@ -1,0 +1,20 @@
+/*BEGIN PS4 White Controller Styling*/
+.controller.ds4.white {
+    background-image: url(White_Skin.png);
+}
+
+
+
+.ds4.white .button {
+    background-image: url(FaceButtons.png);
+}
+
+.ds4.white .stick {
+    background-image: url(Sticks.png);
+}
+
+
+/*END PS4 White Controller Styling*/
+
+
+
